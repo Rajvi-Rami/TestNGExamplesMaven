@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite B">
+  <test  name="Register Test">
+    <classes>
+      <class name="testcasessuiteb.ValidateUsersRegTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test  name="Search Buy Phone">
+    <classes>
+      <class name="testcasessuiteb.SearchAndBuyPhone"/>
+    
+    </classes>
+  </test>
+</suite> <!-- Suite -->
